@@ -25,7 +25,7 @@ host_name = gets.chomp
 
 puts "Dear #{guest_name},
 
-You are cordiallly invited to the #{party_name} on #{date}
+You are cordially invited to the #{party_name} on #{date}
 at #{time}.
 
 Sincerely,
