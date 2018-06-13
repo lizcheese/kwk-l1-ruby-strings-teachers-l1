@@ -21,12 +21,12 @@ puts "What time will the party start?"
 time = gets.chomp
 
 puts "Who is the host of the party?"
-host_name = gets.chomp.capitalize
+host_name = gets.chomp
 
 puts "Dear #{guest_name},
 
-You are cordiallly invited to the #{party_name} on #{date}
-at #{time}.
+You are cordially invited to #{party_name} on #{date}
+at #{time}. Please RSVP at #{date} - 1.days
 
 Sincerely,
 
